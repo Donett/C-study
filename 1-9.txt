@@ -15,6 +15,5 @@ void main()
 		lastc=c;
 
 	}
-
 	while(1);
 }
