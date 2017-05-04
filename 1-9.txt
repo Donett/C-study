@@ -1,0 +1,20 @@
+#include<stdio.h>
+/*
+	1-9输入辅助到输出，连续的空格用一个代替
+*/
+void main()
+{
+	int c;
+	int lastc=0;
+	int a;
+	while((c=getchar())!=EOF)
+	{
+		if(lastc==' '&&c==' ');
+		
+		else printf("%c",c);
+		lastc=c;
+
+	}
+
+	while(1);
+}
